@@ -1,0 +1,10 @@
+.quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(59, 59, 59);
+    margin: 20px;
+    transition: opacity 0.3s ease;
+  }
+.hidden {
+    display: none;
+  }
