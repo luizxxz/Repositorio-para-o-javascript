@@ -1,0 +1,13 @@
+    table {
+      border-collapse: collapse;
+      margin-top: 10px;
+      width: 300px;
+    }
+    td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    button {
+      margin-right: 10px;
+    }
