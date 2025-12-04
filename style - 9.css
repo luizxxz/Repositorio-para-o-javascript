@@ -1,0 +1,10 @@
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #mensagem.sucesso {
+    color: green;
+  }
+  #mensagem.erro {
+    color: red;
+  }
