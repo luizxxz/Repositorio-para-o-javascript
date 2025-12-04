@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Distribuição de Pontos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sistema de Distribuição de Pontos</h1>
+
+  <div class="atributo">
+    Vontade de viver: <span id="forca">0</span>
+    <button onclick="alterar('forca', 1)">+</button>
+    <button onclick="alterar('forca', -1)">–</button>
+  </div>
+
+  <div class="atributo">
+    Sono: <span id="agilidade">0</span>
+    <button onclick="alterar('agilidade', 1)">+</button>
+    <button onclick="alterar('agilidade', -1)">–</button>
+  </div>
+
+  <div class="atributo">
+    Depressao: <span id="inteligencia">0</span>
+    <button onclick="alterar('inteligencia', 1)">+</button>
+    <button onclick="alterar('inteligencia', -1)">–</button>
+  </div>
+
+  <div id="pontosRestantes">Pontos restantes: 10</div>
+
+  <button id="confirmar">Confirmar Distribuição</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

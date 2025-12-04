@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; }
+    .atributo { margin: 10px 0; }
+    button { margin: 0 5px; }
+    #pontosRestantes { font-weight: bold; margin-top: 15px; }
