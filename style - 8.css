@@ -1,0 +1,17 @@
+#menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+
+  #menu li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #menu li:last-child {
+    border-bottom: none;
+  }
